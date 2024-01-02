@@ -1,0 +1,90 @@
+.light {
+    width: 80px;
+    height: 80px;
+    background-color: #f4eeee; /* Color de fondo del contenedor */
+    border-radius: 50%; /* Configura el radio para que el contenedor sea redondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+  justify-items: center;
+  position: relative;
+  margin: 10px;
+}
+
+.light img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+
+.red {
+    background-color: red;
+}
+
+body {
+    background-image: url('Diseño\ sin\ título.gif'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta real de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo, evitando que se desplace con el contenido */
+    /* Otros estilos que desees agregar */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Establece la altura del cuerpo para ocupar el 100% de la altura de la ventana */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  display: flex;
+}
+
+#linea{
+  color: white
+}
+
+.contenedor{
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+}
+
+h1{
+  text-align: center;
+}
+
+.botonContenedor{
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+.clipped-image {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Ancho del área recortada */
+    height: 225px; /* Altura del área recortada */
+}
+
+.clipped-image img {
+    display: block;
+    width: 100%; /* Ajusta la imagen para llenar completamente el área recortada */
+}
+
+.contenedorGeneral{
+  justify-items: center;
+  display: grid;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luces de Notificación</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="contenedorGeneral">
+    <div class="clipped-image">
+        <img src= "Boton de panico (1).gif">
+    </div>
+    
+    <table border="1">
+        <tr>
+            <th>Sector 1</th>
+            <th>Sector 2</th>
+            <th>Sector 3</th>
+            <th>Sector 4</th>
+        </tr>
+        <tr>
+            <td>
+              <div class="contenedor">
+                <div class="light" id="light1">
+                  <img id="luz1" src="verde.png"></img>
+                </div>
+                <div class="botonContendor">
+                  <button onclick="cambiarRojo1()">Notificar</button>
+                  <script src="script.js"></script>
+                  <button onclick="cambiarVerde1()"> Reiniciar</button>
+                  <script src="script.js"></script>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="contenedor">
+                <div class="light" id="light2">
+                  <img id="luz2" src="verde.png"></img>
+                </div>
+                <div class="botonContendor">
+                  <button onclick="cambiarRojo2()">Notificar</button>
+                  <script src="script.js"></script>
+                  <button onclick="cambiarVerde2()"> Reiniciar</button>
+                  <script src="script.js"></script>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div class="contenedor">
+                <div class="light" id="light3">
+                  <img id="luz3" src="verde.png"></img>
+                </div>
+                <div class="botonContendor">
+                  <button onclick="cambiarRojo3()">Notificar</button>
+                  <script src="script.js"></script>
+                  <button onclick="cambiarVerde3()"> Reiniciar</button>
+                  <script src="script.js"></script>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div class="contenedor">
+                <div class="light" id="light4">
+                  <img id="luz4" src="verde.png"></img>
+                </div>
+                <div class="botonContendor">
+                  <button onclick="cambiarRojo4()">Notificar</button>
+                  <script src="script.js"></script>
+                  <button onclick="cambiarVerde4()"> Reiniciar</button>
+                  <script src="script.js"></script>
+                </div>
+              </div>
+            </td>
+        </tr>
+    </table>
+    <div class="botonContenedor">
+      <button onclick="cambiarVerdeTodo()">Reiniciar todo</button>
+      <script src="script.js"></script>
+    </div>
+  </div>
+</body>
+</html>
